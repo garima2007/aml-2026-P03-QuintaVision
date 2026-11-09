@@ -12,3 +12,9 @@ The target variable is `is_canceled`:
 - `0` → Booking was not cancelled
 - `1` → Booking was cancelled
 The final goal is not only to predict cancellations, but also to explore how these predictions can help hotels reduce losses caused by empty rooms while controlling the risk of excessive overbooking.
+
+In this project, we are working with historical hotel booking data to predict whether a booking is likely to be cancelled.
+First, the dataset is analyzed and cleaned by handling missing values, checking invalid records, and removing features that may cause data leakage. Exploratory Data Analysis (EDA) is then performed to understand how factors such as lead time, hotel type, deposit type, market segment, customer type, and previous cancellations are related to booking cancellations.
+After understanding the data, useful features are created and the dataset is prepared for machine learning using train-test splitting, categorical encoding, and numerical scaling.
+Multiple machine learning classification models will be trained and compared to find a suitable model for predicting booking cancellations.
+The selected model will then be used to estimate cancellation probabilities. These probabilities will be used to explore an overbooking strategy that aims to reduce losses from empty rooms while also considering the risk of accepting too many bookings.
