@@ -18,3 +18,30 @@ First, the dataset is analyzed and cleaned by handling missing values, checking 
 After understanding the data, useful features are created and the dataset is prepared for machine learning using train-test splitting, categorical encoding, and numerical scaling.
 Multiple machine learning classification models will be trained and compared to find a suitable model for predicting booking cancellations.
 The selected model will then be used to estimate cancellation probabilities. These probabilities will be used to explore an overbooking strategy that aims to reduce losses from empty rooms while also considering the risk of accepting too many bookings.
+Cleaned Data
+     ↓
+Feature Engineering
+     ↓
+Train/Test Split
+     ↓
+Preprocessing
+     ↓
+┌─────────────────────────┐
+│ Logistic Regression     │
+│ KNN                     │
+│ Decision Tree           │
+│ Random Forest           │
+│ Boosting                │
+└─────────────────────────┘
+     ↓
+Predictions
+     ↓
+Accuracy
+Precision
+Recall
+F1-score
+ROC-AUC
+PR-AUC
+Confusion Matrix
+     ↓
+Compare Models
