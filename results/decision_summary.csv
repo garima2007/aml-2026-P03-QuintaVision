@@ -1,0 +1,2 @@
+Model,FP_Cost,FN_Cost,OOF_ROC_AUC,OOF_Average_Precision,Recommended_Threshold,Minimum_OOF_Expected_Cost,Heldout_ROC_AUC,Heldout_Average_Precision,Default_Threshold,Default_Test_Cost,Recommended_Test_Cost,Test_Cost_Reduction,Test_Cost_Reduction_Pct,Recommended_TN,Recommended_FP,Recommended_FN,Recommended_TP
+Random Forest,2,1,0.9563151664433562,0.9379374064120083,0.61,13458,0.9584404394647833,0.9405581619978781,0.5,3537,3291,246,6.955046649703139,14419,583,2125,6715
