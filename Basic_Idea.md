@@ -10,7 +10,7 @@ The project will aim to:
 - Use predicted cancellation probabilities to support an overbooking decision.
 The target variable is `is_canceled`:
 - `0` → Booking was not cancelled
-- - `1` → Booking was cancelled
+- `1` → Booking was cancelled
 The final goal is not only to predict cancellations, but also to explore how these predictions can help hotels reduce losses caused by empty rooms while controlling the risk of excessive overbooking.
 
 In this project, we are working with historical hotel booking data to predict whether a booking is likely to be cancelled.
