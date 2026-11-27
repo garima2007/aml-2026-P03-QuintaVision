@@ -297,7 +297,8 @@ The 0.61 recommendation is conditional on the stated cost assumption; a differen
     |   `-- report.pdf
     |
     |-- Basic_Idea.md
-    |-- Raw_idea_basic_libraries.ipynb
+    |-- archive/
+    |   `-- Raw_idea_basic_libraries.ipynb
     |-- REPRODUCIBILITY.md
     |-- requirements.txt
     |-- .gitignore
@@ -305,7 +306,7 @@ The 0.61 recommendation is conditional on the stated cost assumption; a differen
 
 The generated processed CSV is intentionally ignored by Git; Notebook 03 recreates it from the raw dataset.
 
-`Basic_Idea.md` and `Raw_idea_basic_libraries.ipynb` are retained as early project-development artifacts. They document initial problem framing and exploratory work but are **not part of the final reproducible 01–08 notebook execution pipeline**.
+`Basic_Idea.md` and `archive/Raw_idea_basic_libraries.ipynb` are retained as early project-development artifacts. They document initial problem framing and exploratory work but are **not part of the final reproducible 01–08 notebook execution pipeline**.
 
 ---
 
